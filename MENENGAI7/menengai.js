@@ -19,8 +19,7 @@ function reverse(){
     ordain.style.display = 'block';
     fconference.style.display = 'none';
     sconference.style.display = 'none';
-    ordination.style.display = 'none';
-    
+    ordination.style.display = 'none';   
 }
 function conference2(){
     conf1.style.display = 'none';
@@ -30,9 +29,10 @@ function conference2(){
     ordain.style.display = 'none';
     fconference.style.display = 'none';
     sconference.style.display = 'block';
-
     document.querySelector('body').style.backgroundAttachment = 'fixed';
 }
+
+
 function conference1(){
    
     conf1.style.display = 'none';
@@ -43,6 +43,7 @@ function conference1(){
     fconference.style.display = 'block';
     document.querySelector('body').style.backgroundAttachment = 'fixed';
 }
+
 function ordin(){
     conf1.style.display = 'none';
     conf2.style.display = 'none';
